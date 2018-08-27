@@ -1,8 +1,8 @@
 /**
- * Package for calculate task.
+ * Package for calculator.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
  * @since 0.1
  */
-package ru.job4j.calculate;
+package ru.job4j.calculator;
