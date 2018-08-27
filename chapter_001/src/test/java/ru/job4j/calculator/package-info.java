@@ -1,5 +1,5 @@
 /**
- * Package for calculator.
+ * Package for CalculatorTest, FitTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
