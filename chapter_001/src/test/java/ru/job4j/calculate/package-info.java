@@ -1,5 +1,5 @@
 /**
- * Package for calculate task.
+ * Package for CalculateTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$

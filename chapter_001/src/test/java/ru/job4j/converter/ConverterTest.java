@@ -5,7 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Converter test
+ * Converter test.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$

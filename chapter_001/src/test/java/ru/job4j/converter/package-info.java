@@ -1,5 +1,5 @@
 /**
- * Package for converter.
+ * Package for ConverterTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$

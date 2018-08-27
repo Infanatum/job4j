@@ -6,8 +6,8 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Testing of calculator for operations such as addition,
- * subtraction, multiplying and division
+ * Testing of the calculator for operations such as addition,
+ * subtraction, multiplying and division.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
