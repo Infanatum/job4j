@@ -1,5 +1,5 @@
 /**
- * Package for Point, DummyBot.
+ * Package for DummyBotTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
