@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 /**
- * Class Point is intended to describe a point in
+ * Class Point describes a point in
  * the coordinate system.
  *
  * @author Infanatum

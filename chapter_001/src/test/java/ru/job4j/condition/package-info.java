@@ -1,5 +1,5 @@
 /**
- * Package for DummyBotTest.
+ * Package for DummyBotTest, TriangleTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
