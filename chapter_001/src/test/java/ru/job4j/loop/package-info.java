@@ -1,5 +1,5 @@
 /**
- * Package for CounterTest.
+ * Package for CounterTest, FactorialTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
