@@ -1,5 +1,5 @@
 /**
- * Package for BoardTest, CounterTest, FactorialTest.
+ * Package for BoardTest, CounterTest, FactorialTest, PaintTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$

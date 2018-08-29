@@ -1,5 +1,5 @@
 /**
- * Package for Board, Factorial, Counter.
+ * Package for Board, Factorial, Counter, Paint.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
