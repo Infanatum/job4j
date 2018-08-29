@@ -1,15 +1,15 @@
 package ru.job4j.max;
 
 /**
- * Class Max returns ru.job4j.max from two numbers.
+ * Class Max returns max from two numbers.
  *
  * @author Infanatum
- * @version 1
+ * @version 2
  * @since 28.08.2018
  */
 public class Max {
     /**
-     * Return ru.job4j.max number
+     * Return max number
      *
      * @param first  First number.
      * @param second Second number.
@@ -17,5 +17,18 @@ public class Max {
      */
     public int max(int first, int second) {
         return first > second ? first : second;
+    }
+
+    /**
+     * Return max number
+     *
+     * @param first  First number.
+     * @param second Second number.
+     * @param third  Third number.
+     * @return Max number.
+     */
+    public int max(int first, int second, int third) {
+        int temp = this.max(first, second);
+        return max(temp, third);
     }
 }
