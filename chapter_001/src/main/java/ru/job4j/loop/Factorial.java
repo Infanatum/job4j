@@ -8,6 +8,11 @@ package ru.job4j.loop;
  * @since 29.08.2018
  */
 public class Factorial {
+    /**
+     * Method calculates factorial.
+     *
+     * @param n Integer.
+     */
     public int calc(int n) {
         int factorial = 1;
 

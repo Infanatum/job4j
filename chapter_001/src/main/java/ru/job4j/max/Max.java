@@ -1,7 +1,7 @@
 package ru.job4j.max;
 
 /**
- * Class Max returns max from two numbers.
+ * Class Max returns max from two and three numbers.
  *
  * @author Infanatum
  * @version 2
@@ -9,7 +9,7 @@ package ru.job4j.max;
  */
 public class Max {
     /**
-     * Return max number
+     * Method returns max number of 2 numbers.
      *
      * @param first  First number.
      * @param second Second number.
@@ -20,7 +20,7 @@ public class Max {
     }
 
     /**
-     * Return max number
+     * Method returns max number of 3 numbers.
      *
      * @param first  First number.
      * @param second Second number.
