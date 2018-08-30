@@ -4,7 +4,7 @@ package ru.job4j.condition;
  * Class Triangle calculates the area of a triangle.
  *
  * @author Infanatum
- * @version 1
+ * @version 2
  * @since 28.08.2018
  */
 public class Triangle {
@@ -19,25 +19,22 @@ public class Triangle {
     }
 
     /**
-     * Метод вычисления полупериметра по длинам сторон.
-     * <p>
-     * Формула.
-     * <p>
-     * (ab + ac + bc) / 2
+     * Method calculates half-perimeter through thee points.
+     * Formula: (ab + ac + bc) / 2.
      *
-     * @param ab расстояние между точками a b
-     * @param ac расстояние между точками a c
-     * @param bc расстояние между точками b c
-     * @return Перимент.
+     * @param ab distance between points a and b.
+     * @param ac distance between points a and c.
+     * @param bc distance between points b and c.
+     * @return Perimeter.
      */
     public double period(double ab, double ac, double bc) {
-        return (ab + ac + bc) / 2; // вместо -1 нужно написать формулу вычисляющую полуперимент.
+        return (ab + ac + bc) / 2;
     }
 
     /**
-     * Метод должен вычислить площадь треугольника.
+     * Method calculates the area of a triangle.
      *
-     * @return Вернуть прощадь, если треугольник существует или -1, если треугольника нет.
+     * @return Returns area if exist, else returns -1.
      */
     public double area() {
         double rsl = -1; // мы устанавливаем значение -1, так как может быть что треугольника нет. Это значение говорит о том. что треугольника нет.
@@ -46,24 +43,23 @@ public class Triangle {
         double bc = this.b.distanceTo(this.c);
         double p = this.period(ab, ac, bc);
         if (this.exist(ab, ac, bc)) {
-            // Формула Герона для расчета площади треугольника.
+            // Using Gerone formula for calculating the area of a triangle.
             rsl = Math.sqrt(
                     (p * (p - ab) * (p - bc) * (p - ac))
             );
-            // Для извлечение квадратного корня надо использовать метод Math.sqrt()
         }
         return rsl;
     }
 
     /**
-     * Метод проверяет можно ли построить треугольник с такими длинами сторон.
+     * Method checks possibility of building a triangle.
      *
-     * @param ab Длина от точки a b.
-     * @param ac Длина от точки a c.
-     * @param bc Длина от точки b c.
-     * @return
+     * @param ab distance between points a and b.
+     * @param ac distance between points a and c.
+     * @param bc distance between points b and c.
+     * @return - returns whether triangle exists or not.
      */
     private boolean exist(double ab, double ac, double bc) {
-        return (ab != 0 && ac != 0 && bc != 0);
+        return ab + ac > bc && ac + bc > ab && ab + bc > ac;
     }
 }

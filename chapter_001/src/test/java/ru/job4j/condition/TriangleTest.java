@@ -13,17 +13,17 @@ import static org.junit.Assert.*;
 public class TriangleTest {
     @Test
     public void whenAreaSetThreePointsThenTriangleArea() {
-        // создаем три объекта класса Point.
+        // Creating three objects of the Class Point.
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
         Point c = new Point(2, 0);
-        // Создаем объект треугольник и передаем в него объекты точек.
+        // Create object triangle and pass in it Paint objects.
         Triangle triangle = new Triangle(a, b, c);
-        // Вычисляем площадь.
+        // Calculate area of a triangle.
         double result = triangle.area();
-        // Задаем ожидаемый результат.
+        // Set expected result.
         double expected = 2D;
-        //Проверяем результат и ожидаемое значение.
+        // Check result and expected value.
         assertThat(result, closeTo(expected, 0.1));
     }
 }
