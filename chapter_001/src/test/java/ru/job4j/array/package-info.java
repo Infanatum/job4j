@@ -1,5 +1,5 @@
 /**
- * Package for FindLoopTest, SquareTest.
+ * Package for FindLoopTest, SquareTest, TurnTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$
