@@ -5,7 +5,7 @@ package ru.job4j.array;
  * filled by only true or false values.
  *
  * @author Infanatum
- * @version 1
+ * @version 2
  * @since 01.09.2018
  */
 public class Check {
@@ -16,12 +16,9 @@ public class Check {
      * @return Result.
      */
     public boolean mono(boolean[] data) {
-        boolean result = false, temp = data[0];
-        for (int i = 0; i <= data.length - 1; i++) {
-            if (data[i] == temp) {
-                temp = data[i];
-                result = true;
-            } else {
+        boolean result = true;
+        for (int i = 1; i < data.length; i++) {
+            if (data[0] != data[i]) {
                 result = false;
                 break;
             }
