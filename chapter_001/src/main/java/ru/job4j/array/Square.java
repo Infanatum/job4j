@@ -9,7 +9,7 @@ package ru.job4j.array;
  */
 public class Square {
     /**
-     * Filling an array with the square of the numbers 1 to n
+     * Filling an array with the square of the numbers 1 to n.
      *
      * @param bound N.
      * @return Array.

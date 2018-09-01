@@ -1,5 +1,5 @@
 /**
-* Package for Square.
+* Package for FindLoop, Square.
 *
 * @author Infanatum (mailto:infanatum@gmail.com)
 * @version $Id$
