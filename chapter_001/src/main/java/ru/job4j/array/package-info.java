@@ -1,5 +1,5 @@
 /**
-* Package for FindLoop, Square, Turn.
+* Package for Check, FindLoop, Square, Turn.
 *
 * @author Infanatum (mailto:infanatum@gmail.com)
 * @version $Id$
