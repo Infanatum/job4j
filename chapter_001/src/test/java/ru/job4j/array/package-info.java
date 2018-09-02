@@ -1,5 +1,6 @@
 /**
- * Package for ArrayChar, BubbleSortTest, CheckTest, FindLoopTest, SquareTest, TurnTest.
+ * Package for ArrayChar, BubbleSortTest, CheckTest, FindLoopTest,
+ * MatrixTest, SquareTest, TurnTest.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
  * @version $Id$

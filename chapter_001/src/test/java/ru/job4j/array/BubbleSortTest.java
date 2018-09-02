@@ -30,4 +30,13 @@ public class BubbleSortTest {
         int[] expect = new int[]{2, 3, 4, 5, 9};
         assertThat(result, is(expect));
     }
+
+    @Test
+    public void whenArray54321ThenArray12345() {
+        BubbleSort bubbleSort = new BubbleSort();
+        int[] input = new int[]{5, 4, 3, 2, 1};
+        int[] result = bubbleSort.sort(input);
+        int[] expect = new int[]{1, 2, 3, 4, 5};
+        assertThat(result, is(expect));
+    }
 }
