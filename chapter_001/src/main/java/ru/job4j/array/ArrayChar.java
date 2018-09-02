@@ -5,7 +5,7 @@ package ru.job4j.array;
  * prefix of the word.
  *
  * @author Infanatum
- * @version 1
+ * @version 2
  * @since 01.09.2018
  */
 public class ArrayChar {
@@ -27,6 +27,7 @@ public class ArrayChar {
         for (int i = 0; i < prefix.length(); i++) {
             if (data[i] != value[i]) {
                 result = false;
+                break;
             }
         }
         return result;
