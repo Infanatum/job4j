@@ -1,5 +1,5 @@
 /**
- * Package for ArrayChar, BubbleSort, Check, FindLoop, Matrix,
+ * Package for ArrayChar, ArrayDuplicate, BubbleSort, Check, FindLoop, Matrix,
  * MatrixCheck, Square, Turn.
  *
  * @author Infanatum (mailto:infanatum@gmail.com)
